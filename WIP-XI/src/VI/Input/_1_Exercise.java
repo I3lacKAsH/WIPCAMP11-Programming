@@ -16,17 +16,17 @@ public class _1_Exercise {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
          
-         int x;
+         int x  ;
          int y;
          
-        System.out.print("Enter x : ");
+        System.out.print("เงินพ่อ : ");
 
         x = sc.nextInt();
         
-        System.out.print("Enter y : ");
+        System.out.print("เงินแม่ : ");
 
         y = sc.nextInt();
                
-        System.out.println("X+Y : " + (x+y));
+        System.out.println("ผลรวม : " + (x+y));
     }
 }

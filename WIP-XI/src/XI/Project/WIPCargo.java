@@ -1,7 +1,6 @@
 /*
  * WIP XI Computer Programing 
  */
-
 package XI.Project;
 
 import java.util.Scanner;
@@ -11,8 +10,9 @@ import java.util.Scanner;
  * @author sittiwatlcp
  */
 public class WIPCargo {
+
     public static void main(String[] args) {
-        int item =4;
+        int item = 4;
         int limit = 10;
         Scanner sc = new Scanner(System.in);
         System.out.println("มีไอเทม : " + item);
@@ -38,9 +38,7 @@ public class WIPCargo {
 
             }
             System.out.println("===============================================");
-        }
-
-        else if (x == 2) {
+        } else if (x == 2) {
             if (item == 0) {
                 System.out.println("ไม่มีไอเท็มในโกดัง");
             } else {
@@ -53,14 +51,11 @@ public class WIPCargo {
                 }
 
             }
-        }
-
-
-        else if (x == 3) {
+        } else if (x == 3) {
             System.out.println("ทำการเช็คไอเท็ม");
             System.out.println("มีไอเทม : " + item);
-        } 
-        else {
+        } else {
             System.out.println("ไม่มีคำสั่งดังกล่าว");
-        
-    
+        }
+    }
+}
